@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    uses: jburel/action-workflows/.github/workflows/gradle_build.yml@v1.1
+    uses: ome/action-workflows/.github/workflows/gradle_build.yml@v1.1
     with:
       gradle-version: ""
   publish_snapshots:
